@@ -1,0 +1,54 @@
+{
+	"author": "Baptiste Pillot",
+	"description": "Array subclasses that remain continuously sorted on insert() or push() calls, featuring optimized includes() and indexOf().",
+	"devDependencies": {
+		"@types/jest": "^29.5",
+		"esbuild": "^0.24",
+		"jest": "^29.7",
+		"typescript": "5.6"
+	},
+	"exports": {
+		".": {
+			"import": "./sorted-array.js",
+			"require": "./sorted-array.cjs"
+		},
+		"./min": {
+			"import": "./sorted-array.min.js",
+			"require": "./sorted-array.min.cjs"
+		}
+	},
+	"files": [
+		"LICENSE",
+		"README.md",
+		"sorted-array.cjs",
+		"sorted-array.d.ts",
+		"sorted-array.js",
+		"sorted-array.min.cjs",
+		"sorted-array.min.js"
+	],
+	"keywords": [
+		"array",
+		"asc",
+		"by",
+		"continuous",
+		"fast",
+		"includes",
+		"indexOf",
+		"objects",
+		"search",
+		"sort",
+		"sorted"
+	],
+	"license": "MIT",
+	"main": "./sorted-array.cjs",
+	"module": "./sorted-array.js",
+	"name": "@itrocks/sorted-array",
+	"repository": "https://github.com/itrocks-ts/sorted-array",
+	"scripts": {
+		"build": "tsc && node esbuild.config.js",
+		"esbuild": "node esbuild.config.js"
+	},
+	"type": "module",
+	"types": "./sorted-array.d.ts",
+	"version": "0.0.1"
+}
