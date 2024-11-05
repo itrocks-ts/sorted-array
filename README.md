@@ -53,7 +53,7 @@ array.push(7)
 
 See [SortedArray](#SortedArray) for more information.
 
-### Sorting by Object Property Value
+#### Sorting by Object Property Value
 
 ```js
 import { SortedArrayBy } from '@itrocks/sorted-array'
@@ -75,7 +75,7 @@ array.push({ age: 7, name: 'Philip' })
 
 See [SortedArrayBy](#SortedArrayBy) for more information.
 
-### Sorting with a Custom Comparison Function
+#### Sorting with a Custom Comparison Function
 
 ```js
 import { SortedArrayCompareFn } from '@itrocks/sorted-array'
@@ -96,12 +96,12 @@ array.push({ open: 2, close: 50 })
 
 See [SortedArrayCompareFn](#SortedArrayCompareFn) for more information.
 
-## When does It Sort?
+### When does It Sort?
 
 Sorting occurs on each call to [insert()](#insert)
 or [push()](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/push).
 
-## When does It NOT Sort?
+### When does It NOT Sort?
 
 If elements are passed as arguments to the constructor,
 they are expected to be pre-sorted and won’t be sorted again.
@@ -111,7 +111,7 @@ If you're unsure whether your source data is sorted,
 you can call [sort()](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 to apply sorting.
 
-### Example
+#### Example
 
 ```js
 import { SortedArray } from '@itrocks/sorted-array'
@@ -143,6 +143,8 @@ Refer to the [Common API](#common-api) for additional enhancements over the stan
 
 An array of objects continuously sorted by a specific property value,
 or an array of arrays continuously sorted by a value at a specified index.
+
+Additional property and methods: refer to the [Common API](#common-api).
 
 ##### SortedArrayBy() constructor
 
@@ -176,6 +178,8 @@ new SortedArrayBy(compareBy, arrayLength)
 #### SortedArrayCompareFn
 
 An array of elements of any type, sorted continuously using a custom comparison function.
+
+Additional property and methods: refer to the [Common API](#common-api).
 
 ##### SortedArrayCompareFn() constructor
 
