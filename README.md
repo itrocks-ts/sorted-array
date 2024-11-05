@@ -1,3 +1,9 @@
+![written in TypeScript](https://badgen.net/badge/icon/typescript?icon=typescript&label)
+[![view on npm](https://badgen.net/npm/v/@itrocks/sorted-array)](https://www.npmjs.org/package/@itrocks/sorted-array)
+[![npm module downloads](https://badgen.net/npm/dt/@itrocks/sorted-array)](https://www.npmjs.org/package/@itrocks/sorted-array)
+[![GitHub repo dependents](https://badgen.net/github/dependents-repo/itrocks-ts/sorted-array)](https://github.com/itrocks-ts/sorted-array/network/dependents?dependent_type=REPOSITORY)
+[![GitHub package dependents](https://badgen.net/github/dependents-pkg/itrocks-ts/sorted-array)](https://github.com/itrocks-ts/sorted-array/network/dependents?dependent_type=PACKAGE)
+
 # sorted-array
 
 [Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array) subclasses that remain
@@ -149,20 +155,20 @@ new SortedArrayBy(compareBy, arrayLength)
 ```
 
 - If `compareBy` is a number, it specifies the index of each inner array's element that will be used for comparison.
-
-**Example**:
-```js
-new SortedArrayBy(1, ['a', 'c', 'b'], ['r', 'd', 'a'])
-```
-The array will be continuously sorted by the 2nd element of the array (index 1), comparing `'c'` and `'d'` in this example.
+  Example:
+  ```js
+  new SortedArrayBy(1, ['a', 'c', 'b'], ['r', 'd', 'a'])
+  ```
+  The array will be continuously sorted by the 2nd element of the array (index 1), comparing `'c'` and `'d'` in this example.
+  <br/><br/>
 
 - If `compareBy` is a number or a string, it specifies the property name by which object elements will be compared.
-
-**Example**:
-```js
-new SortedArrayBy('name', { age: 30, name: 'Henry', age: 20, name: 'Johana' })
-```
-The array will be continuously sorted by the value of the property named `name` into the object element. 
+  Example:
+  ```js
+  new SortedArrayBy('name', { age: 30, name: 'Henry', age: 20, name: 'Johana' })
+  ```
+  The array will be continuously sorted by the value of the property named `name` into the object element.
+  <br/><br/>
 
 - The `elements` and `arrayLength` parameters function the same as in the standard JavaScript
 [Array constructor](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/Array).
