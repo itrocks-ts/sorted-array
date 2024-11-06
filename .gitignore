@@ -1,6 +1,5 @@
 /.idea
 /.package-lock.json
 /node_modules
-/tsconfig.tsbuildinfo
 *.d.ts
 *.js

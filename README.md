@@ -1,4 +1,3 @@
-![written in TypeScript](https://badgen.net/badge/icon/typescript?icon=typescript&label)
 [![view on npm](https://badgen.net/npm/v/@itrocks/sorted-array)](https://www.npmjs.org/package/@itrocks/sorted-array)
 [![npm module downloads](https://badgen.net/npm/dt/@itrocks/sorted-array)](https://www.npmjs.org/package/@itrocks/sorted-array)
 [![GitHub repo dependents](https://badgen.net/github/dependents-repo/itrocks-ts/sorted-array)](https://github.com/itrocks-ts/sorted-array/network/dependents?dependent_type=REPOSITORY)
