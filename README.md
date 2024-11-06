@@ -23,12 +23,8 @@ Sorting can be based on:
 ## Compatibility
 
 Isomorphic, load-anywhere, and typescript typed:
-- Written in Typescript; the types declaration file is included into this package,
-- Can be included in any CommonJS (`require('@itrocks/sorted-array')`) or ES6 (`import '@itrocks/sorted-array'`) scripts,
-- Usable as a Node.js module, CommonJS script, or ES6 module:
-  - CommonJS script: `<script src="sorted-array.cjs"></script>`,
-  - ES6 module: `<script src="sorted-array.js" type="module"></script>`,
-- Minified versions `.min.cjs` / `.min.js` are also available to reduce browser bandwidth usage by 75%.
+- Written in Typescript; the types declaration files are included in this package,
+- Can be required or imported in any CommonJS or ES6 script running in node.js or your browser.
 
 ## Usage
 
@@ -169,7 +165,7 @@ new SortedArrayBy(compareBy, arrayLength)
   ```js
   new SortedArrayBy('name', { age: 30, name: 'Henry', age: 20, name: 'Johana' })
   ```
-  The array will be continuously sorted by the value of the property named `name` into the object element.
+  The array will be continuously sorted by the value of the `name` property in each object element.
   <br/><br/>
 
 - The `elements` and `arrayLength` parameters function the same as in the standard JavaScript
@@ -229,7 +225,7 @@ Defaults to `false`. Set to `true` to prevent duplicate entries.
 insert(element)
 ```
 
-Inserts an element into the array, sorted.
+Inserts an element into the array in sorted order.
 
 Equivalent to
 [push()](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/push)

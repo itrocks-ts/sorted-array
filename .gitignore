@@ -2,7 +2,5 @@
 /.package-lock.json
 /node_modules
 /tsconfig.tsbuildinfo
-/*.cjs
-/*.d.ts
-/*.js
-!/esbuild.config.js
+*.d.ts
+*.js

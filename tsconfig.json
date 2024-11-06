@@ -1,13 +1,9 @@
 {
 	"compilerOptions": {
-		"allowSyntheticDefaultImports": true,
 		"declaration": true,
-		"forceConsistentCasingInFileNames": true,
-		"module": "NodeNext",
-		"moduleResolution": "NodeNext",
 		"skipLibCheck": true,
 		"strict": true,
-		"target": "ESNext"
+		"target": "ES2022"
 	},
-	"exclude": ["node_modules"]
+	"include": ["./*"]
 }

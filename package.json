@@ -2,29 +2,15 @@
 	"author": "Baptiste Pillot",
 	"description": "Array subclasses that remain continuously sorted on insert() or push() calls, featuring optimized includes() and indexOf().",
 	"devDependencies": {
-		"@types/jest": "^29.5",
-		"esbuild": "^0.24",
-		"jest": "^29.7",
 		"typescript": "5.6"
-	},
-	"exports": {
-		".": {
-			"import": "./sorted-array.js",
-			"require": "./sorted-array.cjs"
-		},
-		"./min": {
-			"import": "./sorted-array.min.js",
-			"require": "./sorted-array.min.cjs"
-		}
 	},
 	"files": [
 		"LICENSE",
 		"README.md",
-		"sorted-array.cjs",
+		"esm/sorted-array.d.js",
+		"esm/sorted-array.js",
 		"sorted-array.d.ts",
-		"sorted-array.js",
-		"sorted-array.min.cjs",
-		"sorted-array.min.js"
+		"sorted-array.js"
 	],
 	"keywords": [
 		"array",
@@ -40,15 +26,15 @@
 		"sorted"
 	],
 	"license": "MIT",
-	"main": "./sorted-array.cjs",
-	"module": "./sorted-array.js",
+	"main": "./sorted-array.js",
+	"module": "./esm/sorted-array.js",
 	"name": "@itrocks/sorted-array",
 	"repository": "https://github.com/itrocks-ts/sorted-array",
 	"scripts": {
-		"build": "tsc && node esbuild.config.js",
-		"esbuild": "node esbuild.config.js"
+		"build": "npm run build:cjs && npm run build:esm",
+		"build:cjs": "tsc -p tsconfig.cjs.json",
+		"build:esm": "tsc -p tsconfig.esm.json"
 	},
-	"type": "module",
 	"types": "./sorted-array.d.ts",
-	"version": "0.0.3"
+	"version": "0.0.4"
 }
