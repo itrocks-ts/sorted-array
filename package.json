@@ -10,7 +10,7 @@
 	"files": [
 		"LICENSE",
 		"README.md",
-		"esm",
+		"cjs",
 		"sorted-array.d.ts",
 		"sorted-array.js"
 	],
@@ -37,5 +37,6 @@
 		"build:cjs": "tsc -p tsconfig.cjs.json",
 		"build:esm": "tsc -p tsconfig.esm.json"
 	},
-	"version": "0.0.6"
+	"types": "./sorted-array.d.ts",
+	"version": "0.0.8"
 }
