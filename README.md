@@ -152,7 +152,7 @@ new SortedArrayBy(compareBy, arrayLength)
 ```
 
 - If `compareBy` is a number, it specifies the index of each inner array's element that will be used for comparison.
-  Example:
+  *Example:*
   ```js
   new SortedArrayBy(1, ['a', 'c', 'b'], ['r', 'd', 'a'])
   ```
@@ -160,7 +160,7 @@ new SortedArrayBy(compareBy, arrayLength)
   <br/><br/>
 
 - If `compareBy` is a number or a string, it specifies the property name by which object elements will be compared.
-  Example:
+  *Example:*
   ```js
   new SortedArrayBy('name', { age: 30, name: 'Henry', age: 20, name: 'Johana' })
   ```

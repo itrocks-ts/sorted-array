@@ -38,5 +38,5 @@
 		"build:esm": "tsc -p tsconfig.esm.json"
 	},
 	"types": "./sorted-array.d.ts",
-	"version": "0.0.8"
+	"version": "0.0.9"
 }
