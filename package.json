@@ -28,8 +28,8 @@
 		"sorted"
 	],
 	"license": "MIT",
-	"main": "./sorted-array.js",
-	"module": "./esm/sorted-array.js",
+	"main": "./cjs/sorted-array.js",
+	"module": "./sorted-array.js",
 	"name": "@itrocks/sorted-array",
 	"repository": "https://github.com/itrocks-ts/sorted-array",
 	"scripts": {
@@ -37,5 +37,5 @@
 		"build:cjs": "tsc -p tsconfig.cjs.json",
 		"build:esm": "tsc -p tsconfig.esm.json"
 	},
-	"version": "0.0.5"
+	"version": "0.0.6"
 }
