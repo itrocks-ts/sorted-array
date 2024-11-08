@@ -27,7 +27,7 @@ Isomorphic, load-anywhere, and typescript typed:
 
 ## Usage
 
-### Install
+### Installation
 
 ```bash
 npm i @itrocks/sorted-array
