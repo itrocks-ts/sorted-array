@@ -22,6 +22,7 @@
 		"fast",
 		"includes",
 		"indexOf",
+		"it.rocks",
 		"objects",
 		"search",
 		"sort",
@@ -38,5 +39,5 @@
 		"build:esm": "tsc -p tsconfig.esm.json"
 	},
 	"types": "./sorted-array.d.ts",
-	"version": "0.0.11"
+	"version": "0.0.12"
 }
