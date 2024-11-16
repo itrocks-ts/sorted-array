@@ -3,7 +3,7 @@
 		"name": "Baptiste Pillot",
 		"email": "baptiste@pillot.fr"
 	},
-	"description": "Array subclasses that remain continuously sorted on insert() or push() calls, featuring optimized includes() and indexOf().",
+	"description": "Array subclasses that remain continuously sorted on insert() or push() calls, featuring optimized includes() and indexOf()",
 	"devDependencies": {
 		"typescript": "5.6"
 	},
@@ -38,5 +38,5 @@
 		"build:esm": "tsc -p tsconfig.esm.json"
 	},
 	"types": "./sorted-array.d.ts",
-	"version": "0.0.10"
+	"version": "0.0.11"
 }
