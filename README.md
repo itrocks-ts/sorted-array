@@ -1,7 +1,8 @@
 [![view on npm](https://badgen.net/npm/v/@itrocks/sorted-array)](https://www.npmjs.org/package/@itrocks/sorted-array)
 [![npm module downloads](https://badgen.net/npm/dt/@itrocks/sorted-array)](https://www.npmjs.org/package/@itrocks/sorted-array)
-[![GitHub repo dependents](https://badgen.net/github/dependents-repo/itrocks-ts/sorted-array)](https://github.com/itrocks-ts/sorted-array/network/dependents?dependent_type=REPOSITORY)
-[![GitHub package dependents](https://badgen.net/github/dependents-pkg/itrocks-ts/sorted-array)](https://github.com/itrocks-ts/sorted-array/network/dependents?dependent_type=PACKAGE)
+[![GitHub repo dependents](https://badgen.net/github/dependents-repo/itrocks-ts/sorted-array?label=dependents)](https://github.com/itrocks-ts/sorted-array/network/dependents?dependent_type=REPOSITORY)
+[![Report issues on GitHub](https://badgen.net/github/open-issues/itrocks-ts/sorted-array?icon=github)](https://github.com/itrocks-ts/sorted-array/issues)
+[![Get support on Discord](https://badgen.net/discord/members/kbMjUq5F?icon=discord)](https://discord.gg/kbMjUq5F)
 
 # sorted-array
 
