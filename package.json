@@ -35,6 +35,7 @@
 		"sorted"
 	],
 	"license": "ISC",
+	"module": "./sorted-array.js",
 	"name": "@itrocks/sorted-array",
 	"repository": "https://github.com/itrocks-ts/sorted-array",
 	"scripts": {
@@ -42,6 +43,6 @@
 		"build:cjs": "tsc -p tsconfig.cjs.json",
 		"build:esm": "tsc -p tsconfig.esm.json && cp esm/* ./"
 	},
-	"types": "./esm/sorted-array.d.ts",
-	"version": "0.0.15"
+	"types": "./sorted-array.d.ts",
+	"version": "0.0.16"
 }
