@@ -17,8 +17,8 @@
 	"files": [
 		"LICENSE",
 		"README.md",
-		"*/*.d.ts",
-		"*/*.js"
+		"**/*.d.ts",
+		"**/*.js"
 	],
 	"keywords": [
 		"array",
@@ -40,8 +40,8 @@
 	"scripts": {
 		"build": "npm run build:cjs && npm run build:esm",
 		"build:cjs": "tsc -p tsconfig.cjs.json",
-		"build:esm": "tsc -p tsconfig.esm.json"
+		"build:esm": "tsc -p tsconfig.esm.json && cp esm/* ./"
 	},
 	"types": "./esm/sorted-array.d.ts",
-	"version": "0.0.14"
+	"version": "0.0.15"
 }
