@@ -7,12 +7,18 @@
 	"devDependencies": {
 		"typescript": "5.6"
 	},
+	"engines": {
+		"node": ">=18"
+	},
+	"exports": {
+		"import": "./esm/sorted-array.js",
+		"require": "./cjs/sorted-array.js"
+	},
 	"files": [
 		"LICENSE",
 		"README.md",
-		"cjs",
-		"sorted-array.d.ts",
-		"sorted-array.js"
+		"*/*.d.ts",
+		"*/*.js"
 	],
 	"keywords": [
 		"array",
@@ -28,9 +34,7 @@
 		"sort",
 		"sorted"
 	],
-	"license": "MIT",
-	"main": "./cjs/sorted-array.js",
-	"module": "./sorted-array.js",
+	"license": "ISC",
 	"name": "@itrocks/sorted-array",
 	"repository": "https://github.com/itrocks-ts/sorted-array",
 	"scripts": {
@@ -38,6 +42,6 @@
 		"build:cjs": "tsc -p tsconfig.cjs.json",
 		"build:esm": "tsc -p tsconfig.esm.json"
 	},
-	"types": "./sorted-array.d.ts",
-	"version": "0.0.13"
+	"types": "./esm/sorted-array.d.ts",
+	"version": "0.0.14"
 }
