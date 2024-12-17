@@ -1,8 +1,8 @@
-[![view on npm](https://badgen.net/npm/v/@itrocks/sorted-array)](https://www.npmjs.org/package/@itrocks/sorted-array)
-[![npm module downloads](https://badgen.net/npm/dt/@itrocks/sorted-array)](https://www.npmjs.org/package/@itrocks/sorted-array)
-[![GitHub repo dependents](https://badgen.net/github/dependents-repo/itrocks-ts/sorted-array?label=dependents)](https://github.com/itrocks-ts/sorted-array/network/dependents?dependent_type=REPOSITORY)
-[![Report issues on GitHub](https://badgen.net/github/open-issues/itrocks-ts/sorted-array?icon=github)](https://github.com/itrocks-ts/sorted-array/issues)
-[![Get support on Discord](https://badgen.net/discord/members/kbMjUq5F?icon=discord)](https://discord.gg/kbMjUq5F)
+[![npm version](https://img.shields.io/npm/v/@itrocks/sorted-array?logo=npm)](https://www.npmjs.org/package/@itrocks/sorted-array)
+[![npm downloads](https://img.shields.io/npm/dm/@itrocks/sorted-array)](https://www.npmjs.org/package/@itrocks/sorted-array)
+[![GitHub](https://img.shields.io/github/last-commit/itrocks-ts/sorted-array?color=2dba4e&label=commit&logo=github)](https://github.com/itrocks-ts/sorted-array)
+[![issues](https://img.shields.io/github/issues/itrocks-ts/sorted-array)](https://github.com/itrocks-ts/sorted-array/issues)
+[![discord](https://img.shields.io/discord/1314141024020467782?color=7289da&label=discord&logo=discord&logoColor=white)](https://discord.gg/WFPJjmUx)
 
 # sorted-array
 
