@@ -2,7 +2,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/@itrocks/sorted-array)](https://www.npmjs.org/package/@itrocks/sorted-array)
 [![GitHub](https://img.shields.io/github/last-commit/itrocks-ts/sorted-array?color=2dba4e&label=commit&logo=github)](https://github.com/itrocks-ts/sorted-array)
 [![issues](https://img.shields.io/github/issues/itrocks-ts/sorted-array)](https://github.com/itrocks-ts/sorted-array/issues)
-[![discord](https://img.shields.io/discord/1314141024020467782?color=7289da&label=discord&logo=discord&logoColor=white)](https://discord.gg/RZYhmhgrCk)
+[![discord](https://img.shields.io/discord/1314141024020467782?color=7289da&label=discord&logo=discord&logoColor=white)](https://25.re/ditr)
 
 # sorted-array
 
