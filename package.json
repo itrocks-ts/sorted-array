@@ -40,12 +40,15 @@
 	"license": "ISC",
 	"module": "./sorted-array.js",
 	"name": "@itrocks/sorted-array",
-	"repository": "https://github.com/itrocks-ts/sorted-array",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/itrocks-ts/sorted-array.git"
+	},
 	"scripts": {
 		"build": "npm run build:cjs && npm run build:esm",
 		"build:cjs": "tsc -p tsconfig.cjs.json",
 		"build:esm": "tsc -p tsconfig.esm.json && cp esm/* ./"
 	},
 	"types": "./sorted-array.d.ts",
-	"version": "0.0.20"
+	"version": "0.0.21"
 }
