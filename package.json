@@ -20,12 +20,15 @@
 		"**/*.d.ts",
 		"**/*.js"
 	],
+	"homepage": "https://it.rocks",
 	"keywords": [
 		"array",
 		"asc",
+		"backend",
 		"by",
 		"continuous",
 		"fast",
+		"front-end",
 		"includes",
 		"indexOf",
 		"it.rocks",
@@ -44,5 +47,5 @@
 		"build:esm": "tsc -p tsconfig.esm.json && cp esm/* ./"
 	},
 	"types": "./sorted-array.d.ts",
-	"version": "0.0.19"
+	"version": "0.0.20"
 }
