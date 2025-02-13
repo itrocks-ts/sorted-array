@@ -18,7 +18,9 @@
 		"LICENSE",
 		"README.md",
 		"*/*.d.ts",
-		"*/*.js"
+		"*/*.js",
+		"*.d.ts",
+		"*.js"
 	],
 	"homepage": "https://it.rocks",
 	"keywords": [
@@ -50,5 +52,5 @@
 		"build:esm": "tsc -p tsconfig.esm.json && cp esm/* ./"
 	},
 	"types": "./sorted-array.d.ts",
-	"version": "0.0.22"
+	"version": "0.0.23"
 }
