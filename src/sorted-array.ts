@@ -3,7 +3,15 @@ abstract class ASortedArray<T> extends Array<T>
 {
 	public distinct = false
 
-	abstract insert(insertElement: T): number | undefined
+	constructor(...items: T[])
+	{
+		super(...items)
+		Object.defineProperty(
+			this, 'distinct', { configurable: true, enumerable: false, value: this.distinct, writable: true }
+		)
+	}
+
+	abstract insert(item: T): number | undefined
 
 	abstract isSorted(): boolean
 
@@ -46,13 +54,13 @@ export class SortedArray<T> extends ASortedArray<T>
 		return (this[left] === searchElement) ? left : -1
 	}
 
-	insert(insertElement: T)
+	insert(item: T)
 	{
-		const left = this.#leftOf(insertElement)
-		if (this.distinct && (this[left] === insertElement)) {
+		const left = this.#leftOf(item)
+		if (this.distinct && (this[left] === item)) {
 			return
 		}
-		this.splice(left, 0, insertElement)
+		this.splice(left, 0, item)
 		return left
 	}
 
@@ -103,13 +111,13 @@ export class SortedArrayBy<T extends { [index: number | string]: any }> extends 
 		return (this[left] === searchElement) ? left : -1
 	}
 
-	insert(insertElement: any)
+	insert(item: any)
 	{
-		const left = this.#leftOf(insertElement)
-		if (this.distinct && (this[left] === insertElement)) {
+		const left = this.#leftOf(item)
+		if (this.distinct && (this[left] === item)) {
 			return
 		}
-		this.splice(left, 0, insertElement)
+		this.splice(left, 0, item)
 		return left
 	}
 
@@ -168,13 +176,13 @@ export class SortedArrayCompareFn<T> extends ASortedArray<T>
 		return this.compareFn(this[left], searchElement) ? -1 : left
 	}
 
-	insert(insertElement: T)
+	insert(insert: T)
 	{
-		const left = this.#leftOf(insertElement)
-		if (this.distinct && (this[left] === insertElement)) {
+		const left = this.#leftOf(insert)
+		if (this.distinct && (this[left] === insert)) {
 			return
 		}
-		this.splice(left, 0, insertElement)
+		this.splice(left, 0, insert)
 		return left
 	}
 

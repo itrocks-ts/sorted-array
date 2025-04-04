@@ -52,5 +52,5 @@
 		"build:esm": "tsc -p tsconfig.esm.json && cp esm/* ./"
 	},
 	"types": "./sorted-array.d.ts",
-	"version": "0.0.23"
+	"version": "0.0.24"
 }
