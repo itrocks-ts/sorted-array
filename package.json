@@ -5,7 +5,7 @@
 	},
 	"description": "Array subclasses that remain continuously sorted on insert() or push() calls, featuring optimized includes() and indexOf()",
 	"devDependencies": {
-		"typescript": "5.6"
+		"typescript": "~5.8"
 	},
 	"engines": {
 		"node": ">=18"
@@ -52,5 +52,5 @@
 		"build:esm": "tsc -p tsconfig.esm.json && cp esm/* ./"
 	},
 	"types": "./sorted-array.d.ts",
-	"version": "0.0.24"
+	"version": "0.0.25"
 }
